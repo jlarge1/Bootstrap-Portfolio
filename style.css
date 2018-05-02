@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+
+}
+
+
+
+body {
+    background-color: #eee;
+}
+
+.container {
+    width: 960px;
+    background-color: white;
+    padding: 0px;
+    margin: auto auto 50px auto;
+    overflow: none;
+ 
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 30px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.navbar-light {
+    color: white;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: 200px;
+    line-height: 90px;
+    font-weight: 600;
+}
+
+.portfolio-card {
+
+    width: 275px;
+    margin: 20px auto;
+}
+
+.about {
+    padding: 20px;
+}
+
+.ptitle {
+    width: 275px;
+    height: 48px;
+    font-size: 20px;
+    text-align: center;
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    clear: both;
+    padding: 10px 0 0 0;
+}
+
+footer {
+	display: block;	
+	position: fixed;
+	bottom: 0;
+	height: 60px;
+	background: #666;
+	width: 100%;
+	border-top: 10px solid #4aaaa5;
+}
+
+#footer_content {
+	height: 40px;
+	text-align: center;
+	margin: auto;
+	padding: 15px 0px 0px;
+}
+
+h1 {
+	color: #4aaaa5;
+	display: block;
+	padding: 20px 0 20px 0;
+	border-bottom: 3px solid #ccc;
+	margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.nav-link, .active {
+    color: #777;
+
+}
+
+.nav-link:hover, .active:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.form1 {
+	width:100%;
+	margin-bottom: 20px;
+}
+
+#form-msg {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+#form-submit {
+	width: 150px;
+	height: 50px;
+	background: #4aaaa5;
+	color: white;
+	font-size: 18px;
+	border: 0;
+	padding: 15px;
+	text-align: center;
+}
